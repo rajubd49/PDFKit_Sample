@@ -1,6 +1,8 @@
 # PDFKit_Sample
 PDFKit sample application to view PDF document on iOS 11 or later. Feature includes single and two page mode view, search PDF document with highlighted search text, bookmark page, PDF document outline with selection and page thumbnail with selection.
 
+![GIF](https://ibb.co/cpZ6ew)
+
 ## Contents
 
 ## [PDFKit](https://developer.apple.com/documentation/pdfkit)
