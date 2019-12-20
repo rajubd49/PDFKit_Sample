@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    UIViewController *pdfReaderViewController = [story instantiateViewControllerWithIdentifier:@"PDFReaderVC"];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:pdfReaderViewController];
+    nav.navigationBar.hidden = YES;
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
